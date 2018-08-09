@@ -1,0 +1,15 @@
+/*Styles for katzhembrovska.com*/
+
+body{
+	background-color: white;
+}
+
+header{
+	margin: 1 em;
+	padding-left: 55em;
+	padding-top: 25em;
+	position:center;
+	width:100%;
+	display: center;
+	font-family: 'Raleway', sans-serif;
+}

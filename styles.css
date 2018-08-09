@@ -1,0 +1,133 @@
+/*Styles for katzhembrovska.com*/
+
+body{
+	background-color: white;
+	display: flex;   
+    flex-wrap: wrap;
+}
+
+header{
+	margin: auto;
+}
+
+header a{
+	position: center;
+	width:100%;
+	display: inline-block;
+	font-family: 'Raleway', sans-serif;
+	color: #524C7E;
+	text-decoration: none;
+	text-decoration:none;
+	display: flex;   
+    flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.K{
+
+}
+
+.menu{
+	position: inline;
+}
+
+footer{
+	margin: auto;
+	display: block;
+}
+
+footer a{
+	margin: auto;
+	position: inline-block;
+	width:100%;
+	display: center;
+	text-decoration: none;
+}
+
+footer img{
+	width: 30px;
+	height: 30px;
+ 	position: relative;
+ 	left: 10px;
+ 	overflow: hidden;
+ 	padding-left:10 px;
+ 	padding-right: 10px;
+	padding-top:10px;
+	padding-bottom: 20px;
+}
+
+.proj{
+	margin-left: 200px;
+	margin-right: 200px;
+	position:absoilute;
+}
+
+.proj img{
+	width: 352px;
+	height: 335px;
+ 	position: relative;
+ 	left: 30px;
+ 	overflow: hidden;
+ 	padding-left:35 px;
+ 	padding-right: 35px;
+	padding-top:23px;
+	padding-bottom: 23px;
+}
+
+.boards{
+	margin:auto;
+}
+
+.boards img{
+	max-width:75%;
+	max-height: auto;
+	display:flex;
+	justtify-content: center;
+	align-items: center;
+}
+
+.ex{
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+.ex img{
+	width: 352px;
+	height: 335px;
+ 	position: relative;
+ 	left: 30px;
+ 	overflow: hidden;
+ 	padding-left:35 px;
+ 	padding-right: 35px;
+	padding-top:23px;
+	padding-bottom: 23px;
+}
+
+.about{
+	
+}
+
+.me img{
+	max-width: 25%;
+	height: auto;
+	margin-left: 200 px;
+ 	position: relative;
+ 	left: 30px;
+ 	overflow: hidden;
+ 	padding-left:35 px;
+ 	padding-right: 35px;
+	padding-top:23px;
+	padding-bottom: 23px;
+}
+
+.bio{
+	font-family: 'Hind Siliguri', sans-serif;
+}
+
+.contact{
+	position:relative;
+	display: flex;   
+    flex-wrap: wrap;
+	justify-content: space-around;
+	font-family: 'Hind Siliguri', sans-serif;
+}
