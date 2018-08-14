@@ -1,14 +1,29 @@
 /*Styles for katzhembrovska.com*/
 
+{margin: 0; padding: 0;}
+
 body{
 	background-color: white;
 	display: flex;   
     flex-wrap: wrap;
 }
 
+/* 
 header{
 	margin: auto;
+	/* 
+padding-left: 200px;
+	padding-right: 200px;
+ */
+	/* 
+display: flex;
+  	align-items: center;
+  	justify-content: center; 
+  	flex-wrap: wrap;
 }
+ */
+
+
 
 header a{
 	position: center;
@@ -17,19 +32,38 @@ header a{
 	font-family: 'Raleway', sans-serif;
 	color: #524C7E;
 	text-decoration: none;
-	text-decoration:none;
-	display: flex;   
-    flex-wrap: wrap;
-	justify-content: space-around;
+	text-align: right;
 }
 
-.K{
-
+.htop{
+	display: inline;
+}
+.top a{
+	text-transform: uppercase;
+	letter-spacing:.1em;
+}
+.menu ul{
+	font-family: 'Raleway', sans-serif; 
+	text-transform: lowercase;
+	letter-spacing: .1em;
+	color: #524C7E;
+	text-decoration: none;
+	text-align: right;
 }
 
-.menu{
+.ul li{
+	text-decoration: none;
 	position: inline;
+	color: #707070;
 }
+
+li{
+	text-decoration:none;
+	list-style-type: none;
+	text-align: justify;
+	display: inline;
+}
+
 
 footer{
 	margin: auto;
@@ -59,7 +93,12 @@ footer img{
 .proj{
 	margin-left: 200px;
 	margin-right: 200px;
+	display: flex;
+  	align-items: center;
+  	justify-content: center; 
+  	flex-wrap: wrap;
 	position:absoilute;
+	align-content: center;
 }
 
 .proj img{
@@ -72,6 +111,7 @@ footer img{
  	padding-right: 35px;
 	padding-top:23px;
 	padding-bottom: 23px;
+	align-content: center;
 }
 
 .boards{
@@ -87,13 +127,17 @@ footer img{
 }
 
 .ex{
-	margin-left: 200px;
-	margin-right: 200px;
+	padding-left: 200px;
+	padding-right: 200px;
+	display: flex;
+  	align-items: center;
+  	justify-content: center; 
+  	flex-wrap: wrap;
 }
 
 .ex img{
 	width: 352px;
-	height: 335px;
+	height: auto /*  335px */;
  	position: relative;
  	left: 30px;
  	overflow: hidden;
@@ -105,6 +149,15 @@ footer img{
 
 .about{
 	
+}
+
+.me{
+	padding-left: 200px;
+	padding-right: 200px;
+	display: flex;
+  	align-items: center;
+  	justify-content: left; 
+  	flex-wrap: wrap;
 }
 
 .me img{
@@ -121,13 +174,20 @@ footer img{
 }
 
 .bio{
+	padding-left: 200px;
+	padding-right: 200px;
+	display: flex;
+  	align-items: center;
+  	justify-content: right; 
+  	flex-wrap: wrap;
 	font-family: 'Hind Siliguri', sans-serif;
 }
 
 .contact{
 	position:relative;
-	display: flex;   
-    flex-wrap: wrap;
-	justify-content: space-around;
 	font-family: 'Hind Siliguri', sans-serif;
+	display: flex;
+  	align-items: center;
+  	justify-content: center; 
+  	flex-wrap: wrap;
 }
