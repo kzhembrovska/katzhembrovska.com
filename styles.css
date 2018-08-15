@@ -107,6 +107,7 @@ footer img{
   	flex-wrap: wrap;
 	position:center;
 	align-content: center;
+	position: relative;
 }
 
 .proj img{
@@ -120,6 +121,13 @@ footer img{
 	padding-top:23px;
 	padding-bottom: 23px;
 	align-content: center;
+	opacity: 1;
+	filter: alpha(opacity=30);
+}
+
+.proj a:hover{
+	opacity: .3;
+	filter: alpha(opacity=30);
 }
 
 .boards{
