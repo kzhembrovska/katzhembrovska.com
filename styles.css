@@ -1,29 +1,21 @@
 /*Styles for katzhembrovska.com*/
 
-{margin: 0; padding: 0;}
 
 body{
+	margin:auto;
+	max-width: 1178px;
+	background-color: white;
+	
+}
+
+header{
+	margin: auto;
 	background-color: white;
 	display: flex;   
     flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: flex-end;
 }
-
-/* 
-header{
-	margin: auto;
-	/* 
-padding-left: 200px;
-	padding-right: 200px;
- */
-	/* 
-display: flex;
-  	align-items: center;
-  	justify-content: center; 
-  	flex-wrap: wrap;
-}
- */
-
-
 
 header a{
 	position: center;
@@ -31,29 +23,31 @@ header a{
 	display: inline-block;
 	font-family: 'Raleway', sans-serif;
 	color: #524C7E;
-	text-decoration: none;
-	text-align: right;
+	text-decoration: none; 
 }
 
-.htop{
-	display: inline;
+header a:hover{
+	color:#AF6CA2;
 }
+
+
 .top a{
 	text-transform: uppercase;
 	letter-spacing:.1em;
 }
+
+
 .menu ul{
 	font-family: 'Raleway', sans-serif; 
 	text-transform: lowercase;
 	letter-spacing: .1em;
 	color: #524C7E;
 	text-decoration: none;
-	text-align: right;
 }
 
 .ul li{
 	text-decoration: none;
-	position: inline;
+	position: right;
 	color: #707070;
 }
 
@@ -61,43 +55,56 @@ li{
 	text-decoration:none;
 	list-style-type: none;
 	text-align: justify;
-	display: inline;
+	display: inline-block;
+	padding-right: 1em;
 }
-
 
 footer{
 	margin: auto;
-	display: block;
+	display: flex;   
+    flex-wrap: wrap;
+    flex-direction: column;
+    align: center;
 }
 
+
+.foota{
+	justify-content: center;
+    margin:auto;
+    max-width: 1178px;
+}
+
+.foot{
+	justify-content: center;
+    margin:auto;
+    max-width: 1178px;
+}
+
+
 footer a{
-	margin: auto;
-	position: inline-block;
-	width:100%;
-	display: center;
+ 	max-width:100%;
 	text-decoration: none;
+	background-color: white;
 }
 
 footer img{
 	width: 30px;
 	height: 30px;
  	position: relative;
- 	left: 10px;
+ 	padding-left: 10px;
  	overflow: hidden;
- 	padding-left:10 px;
  	padding-right: 10px;
 	padding-top:10px;
 	padding-bottom: 20px;
+	display:inline;
 }
 
 .proj{
-	margin-left: 200px;
-	margin-right: 200px;
 	display: flex;
   	align-items: center;
   	justify-content: center; 
   	flex-wrap: wrap;
-	position:absoilute;
+	position:center;
 	align-content: center;
 }
 
@@ -116,6 +123,10 @@ footer img{
 
 .boards{
 	margin:auto;
+	position: center;
+	display: flex;   
+    flex-wrap: wrap;
+	justify-content: space-around;
 }
 
 .boards img{
@@ -127,8 +138,6 @@ footer img{
 }
 
 .ex{
-	padding-left: 200px;
-	padding-right: 200px;
 	display: flex;
   	align-items: center;
   	justify-content: center; 
@@ -140,7 +149,6 @@ footer img{
 	height: auto /*  335px */;
  	position: relative;
  	left: 30px;
- 	overflow: hidden;
  	padding-left:35 px;
  	padding-right: 35px;
 	padding-top:23px;
@@ -148,46 +156,52 @@ footer img{
 }
 
 .about{
-	
+	margin: auto;	
+	display: flex;   
+    flex-wrap: wrap;
+    flex-direction: row;
+    align: center;
+    align-items: flex-end;
 }
 
 .me{
-	padding-left: 200px;
-	padding-right: 200px;
-	display: flex;
-  	align-items: center;
-  	justify-content: left; 
-  	flex-wrap: wrap;
+  	max-width:100%;
+  	max-width:400px;
+  	margin: auto;	
+	display: flex;   
+    flex-wrap: wrap;
+    flex-direction: row;
+    align: center;
+    align-items: flex-end;
+    padding-bottom: 6em;
 }
 
 .me img{
-	max-width: 25%;
+	max-width:100%;
 	height: auto;
-	margin-left: 200 px;
+	margin:auto;
  	position: relative;
- 	left: 30px;
- 	overflow: hidden;
- 	padding-left:35 px;
- 	padding-right: 35px;
-	padding-top:23px;
-	padding-bottom: 23px;
-}
+ }
 
-.bio{
-	padding-left: 200px;
-	padding-right: 200px;
-	display: flex;
-  	align-items: center;
-  	justify-content: right; 
-  	flex-wrap: wrap;
+
+.me p{
 	font-family: 'Hind Siliguri', sans-serif;
 }
 
 .contact{
-	position:relative;
+	/* position:relative; */
+	margin:auto;
 	font-family: 'Hind Siliguri', sans-serif;
 	display: flex;
   	align-items: center;
   	justify-content: center; 
   	flex-wrap: wrap;
+    flex-direction: row;
+  	padding-bottom: 5em;
+  	padding-top: 5em;
+  	max-width:400px;
+}
+
+.contact img{
+	max-width: 100%;
 }
