@@ -1,11 +1,7 @@
-/* Scripts for katzhembrovska.com*/
-
-var $ = require('jquery');
-var SimpleLightbox = require('simple-lightbox');
-SimpleLightbox.registerAsJqueryPlugin($);
+/*Scripts for katzhembrovska.com*/
 
 $(document).ready(function(){
 
-	$('.ex').simpleLightbox();
+	$('.ex a').simpleLightbox();
 	
 })
