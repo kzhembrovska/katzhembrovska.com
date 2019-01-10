@@ -1,0 +1,105 @@
+/*Styles for katzhembrovska.com*/
+
+
+body{
+	margin:auto;
+	max-width: 1178px;
+	background-color: white;
+	
+}
+
+header{
+	margin: auto;
+	background-color: white;
+	display: flex;   
+    flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: flex-end;
+}
+
+header a{
+	position: center;
+	width:100%;
+	display: inline-block;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	color: #506D88;
+	text-decoration: none; 
+	font-size: 2em;
+}
+
+/* 
+header a:hover{
+	color:#AF6CA2;
+}
+ */
+
+
+.top a{
+	text-transform: uppercase;
+	letter-spacing:.05em;
+}
+
+
+footer{
+	margin: auto;
+	display: flex;   
+    flex-wrap: wrap;
+    flex-direction: column;
+    align: center;
+}
+
+
+.foota{
+	justify-content: center;
+    margin:auto;
+    max-width: 1178px;
+}
+
+.brb{
+	margin: auto;
+	background-color: white;   
+    flex-wrap: wrap;
+	justify-content: space-around;
+	text-align:center;
+	width:100%;
+	display: inline-block;
+	font-family: 'Assistant', sans-serif;
+	color: #0D1217;
+	text-decoration: none; 
+	font-size: 1.5em;
+}	
+	
+.brb img{
+	width:15%;
+	display:inline;
+	height: auto;
+	margin:auto;
+ 	position: relative;
+}	
+
+.foot{
+	justify-content: center;
+    margin:auto;
+    max-width: 1178px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+
+footer a{
+ 	max-width:100%;
+	text-decoration: none;
+	background-color: white;
+}
+
+footer img{
+	width: 30px;
+	height: 30px;
+ 	position: relative;
+ 	padding-left: 10px;
+ 	overflow: hidden;
+ 	padding-right: 10px;
+	padding-top:10px;
+	padding-bottom: 20px;
+	display:inline;
+}
+
